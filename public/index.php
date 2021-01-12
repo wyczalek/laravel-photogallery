@@ -19,7 +19,8 @@
 |
 */
 
-require __DIR__.'/../../../../photogallery/bootstrap/autoload.php';
+#require __DIR__.'/../../../../photogallery/bootstrap/autoload.php';
+require 'C:\wamp64\www\Laravel-PhotoGallery\bootstrap\autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +34,8 @@ require __DIR__.'/../../../../photogallery/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../../../../photogallery/bootstrap/app.php';
+#$app = require_once __DIR__.'/../../../../photogallery/bootstrap/app.php';
+$app = require_once 'C:\wamp64\www\Laravel-PhotoGallery\bootstrap\app.php';
 
 /*
 |--------------------------------------------------------------------------
